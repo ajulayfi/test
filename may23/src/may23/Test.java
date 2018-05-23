@@ -5,7 +5,9 @@ public class Test {
 	public static void main(String[] args) {
 	
 String x = "aaaa";
-System.out.println(x);
+int a = 8;
+System.out.println(x+a);
+
 	}
 
 }
