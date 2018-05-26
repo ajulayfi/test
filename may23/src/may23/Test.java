@@ -15,14 +15,18 @@ System.out.println(x+a);
 
 System.out.println(x.length());
 
-int integer=0;
+
 
 // call Instance method
+int integer=0;
+
 	Test integer1 = new Test();
-	 integer=integer1.Instance(integer);
+	integer= integer1.Instance(integer);
 	System.out.println(integer);
 	
-	// call static method
+	
+	//call static method
+	
 	 integer=static1(integer);
 		System.out.println(integer);
 
@@ -35,8 +39,8 @@ int integer=0;
 		
 			Scanner scan = new Scanner (System.in);
 			x = scan.nextInt();
-			 scan.close();
-			 System.out.println("the x"+x);
+			
+			 System.out.println("the Instance method");
 			return x;
 		    }
 
@@ -48,16 +52,11 @@ int integer=0;
 		
 			Scanner scan = new Scanner (System.in);
 			x = scan.nextInt();
-			 scan.close();
-			 System.out.println("the x"+x);
+			 
+			 System.out.println("the static method");
 			return x;
 		    }
 	
-
-
-
-	
-	 
 	 
 
 }
