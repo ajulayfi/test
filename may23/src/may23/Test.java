@@ -42,6 +42,7 @@ int integer=0;
 			
 			 System.out.println("the Instance method");
 			return x;
+			
 		    }
 
 // static method
@@ -52,9 +53,10 @@ int integer=0;
 		
 			Scanner scan = new Scanner (System.in);
 			x = scan.nextInt();
-			 
+			
 			 System.out.println("the static method");
 			return x;
+			 
 		    }
 	
 	 
