@@ -32,6 +32,7 @@ public class BasicArray {
 				for (int value : list)
 		       System.out.print(value + "  ");
 				System.out.println("");
+				// print units Array 
 				for (int value : units)
 				       System.out.print(value + "  ");
 				
